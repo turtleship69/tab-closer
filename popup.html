@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        display: block;
+        margin: 10px;
+      }
+      label {
+        display: block;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="move-tabs">Move Tabs to New Window</button>
+    <label for="delay">Delay between closing windows: <span id="delay-value">1000</span>ms</label>
+    <input type="range" id="delay" min="100" max="5000" step="50" value="1000">
+    <script src="popup.js"></script>
+  </body>
+</html>
